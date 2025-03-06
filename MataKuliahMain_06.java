@@ -12,10 +12,14 @@ public class MataKuliahMain_06 {
         mk1.tambahDosen(dosen1);
         mk1.tambahDosen(dosen2);
         mk1.tampilkanInfo();
+        mk1.ubahSKS(2);
+        mk1.tampilkanInfo();
 
         mk2.tambahDosen(dosen3);
         mk2.tambahDosen(dosen4);
         mk2.tambahDosen(dosen5);
+        mk2.tampilkanInfo();
+        mk2.ubahNamaMK("RPL");
         mk2.tampilkanInfo();
     }
 }
